@@ -1,0 +1,31 @@
+<style>
+
+h3 { margin-bottom: 5px; }
+
+table { width: 100%; }
+
+td.what {
+  white-space: nowrap;
+  width: 25%;
+}
+
+.where {
+  margin-left: 5px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+</style>
+
+<div class="pos">
+  <table>
+    <tr>
+      <td class="what"><h3>{{ include.what }}</h3></td>
+      {% if include.where %}
+      <td> <h4 class="where">{{ include.where }}</h4> </td>
+      {% endif %}
+      <td style="text-align: right;"><h3>{{ include.date }}</h3></td>
+    </tr>
+  </table>
+</div>
+

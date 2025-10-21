@@ -1,1 +1,0 @@
-# e-kayrakli.github.io
