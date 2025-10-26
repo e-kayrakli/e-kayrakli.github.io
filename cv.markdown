@@ -5,7 +5,8 @@ slug: /cv
 ---
 
 ## Experience
-{% include pos.html what="Principal Engineer" date="2022-Present" %}
+{% include pos.html what="Senior Principal Engineer" date="2025-Present" %}
+{% include pos.html what="Principal Engineer" date="2022-2025" %}
 {% include pos.html what="Expert Engineer" date="2021-2022" %}
 {% include pos.html what="Specialist Engineer" where="Hewlett Packard Enterprise (formerly Cray Inc.)" date="2019-2021" %}
 
@@ -24,6 +25,13 @@ Works on the development of open-source parallel programming language Chapel.
 - Participates in language/library design efforts.
 
 {% include pos.html what="Adjunct Lecturer" where="The George Washington University" date="2018" %}
+
+Taught the graduate level ECE6105 - Introduction to High-Performance Computing
+class for a semester. This entailed:
+
+- 14 lectures that were 150-minutes,
+- Preparing and grading a midterm and a final exam,
+- Preparing weekly homeworks and projects
 
 {% include pos.html what="Software Intern" where="Cray Inc." date="2016" %}
 
