@@ -28,9 +28,11 @@ github_username:  e-kayrakli
 linkedin_username:  engink
 
 # Build settings
-theme: bay_jekyll_theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: eliottvincent/bay
 
 header:
   pages:
