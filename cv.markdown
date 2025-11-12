@@ -55,9 +55,7 @@ Worked on the development of open-source parallel programming language Chapel.
 
 ## Committee Memberships
 
-
-<table>
-
+<table style="margin-bottom:15px;">
 {% include committee.html what="International Conference on Supercomputing (ICS)" date="2026" %}
 {% include committee.html what="Programming Language Design and Implementation (PLDI)" date="2026" %}
 {% include committee.html what="Workshop on Asynchronous Many-Task Systems and Applications (WAMTA)" date="2026" %}
@@ -78,13 +76,11 @@ Worked on the development of open-source parallel programming language Chapel.
 {% include committee.html what="IEEE Pacific Rim Conf. on Communications, Computers and Signal Proc. (PACRIM)" date="2019" %}
 {% include committee.html what="IEEE Networking, Architecture, and Storage (NAS)" date="2018" %}
 {% include committee.html what="IEEE Application-specific Systems, Architectures and Processors (ASAP)" date="2015,2016" %}
-
 </table>
-
 
 ## Teaching & Mentoring
 
-<table>
+<table style="margin-bottom:15px;">
 {% include committee.html what="Mentor - Bilkent University Mentorship Program" date="2019-Present" %}
 {% include committee.html what="Mentor - Google Summer of Code" date="2017-2021" %}
 {% include committee.html what="Lecturer - The George Washington University" date="2018" %}
@@ -95,7 +91,7 @@ Worked on the development of open-source parallel programming language Chapel.
 
 ## Honors & Awards
 
-<table>
+<table style="margin-bottom:15px;">
 {% include committee.html what="Participant - IEEE/ACM Supercomputing (SC) Early Career Program" date="2021" %}
 {% include committee.html what="Winner - GWU ECE Best Dissertation Award" date="2020" %}
 {% include committee.html what="Runner-up - GWU Innovation Showcase" date="2019" %}
@@ -108,8 +104,25 @@ Worked on the development of open-source parallel programming language Chapel.
 </table>
 
 ## Talks
+1. __Scalable Parallel Programming with Chapel: From Multicore CPUs to
+    GPU-Powered Supercomputers (a.k.a What Chapel Users Get Done and How)__
+    *LUMI User Coffee Breaks*
+    October 2025
+
+1. __Chapel's Batteries-Included Approach for Portable Parallel Programming__
+    *Los Alamos National Laboratory - Advances in Applied Computer Science Invited Speaker Series*
+    June 2025
+
+1. __High-Performance, Productive Programming using Chapel with Examples from the CFD Solver CHAMPS__
+   *NASA Ames Research Center*
+    February 2025 (In collaboration with Eric Laurendeau and Karim Zayni.)
+
+1. __The Chapel Parallel Programming Language and its Ecosystem__ *HPE Inner Sourcing Summit II*.
+   October 2024.
+   (In collaboration with Jade Abraham.)
+
 1. __Vendor-Neutral GPU Programming in Chapel__ *HPE Developer Meetup*.
-   July 2024.  https://developer.hpe.com/campaign/meetups/
+   July 2024.
    (In collaboration with Jade Abraham.)
 
 1. __Making Parallel Programming and GPUs More Accessible with Chapel__
