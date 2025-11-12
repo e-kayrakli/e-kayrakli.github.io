@@ -30,9 +30,9 @@ linkedin_username:  engink
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  #- jekyll-remote-theme
 
-remote_theme: eliottvincent/bay
+theme: bay_jekyll_theme
 
 header:
   pages:
