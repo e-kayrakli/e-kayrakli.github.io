@@ -1,0 +1,23 @@
+<style>
+
+div.talk {
+  padding-left: 10px;
+  margin-bottom: 25px;
+  {% comment %}border-top: 1px solid gray;{% endcomment %}
+}
+
+h3 { margin-bottom: 5px; }
+
+</style>
+
+<div class="talk">
+  <i>{{ include.where }}</i> | {{ include.date }} 
+  <h3>{{ include.what }}</h3>
+  <a href="{{ include.slides }}">Slides</a>
+  {% if include.video %}
+  & <a href="{{ include.video }}">Video</a>
+  {% endif %}
+  <br/>
+  {{ include.desc }}
+</div>
+
