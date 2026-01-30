@@ -5,24 +5,29 @@ slug: /cv
 ---
 
 ## Experience
-{% include pos.html what="Senior Principal Engineer" date="2025-Present" %}
+{% include pos.html what="Senior Principal Engineer" where="Hewlett Packard Enterprise (formerly Cray Inc.)"  date="2025-Present" %}
 {% include pos.html what="Principal Engineer" date="2022-2025" %}
 {% include pos.html what="Expert Engineer" date="2021-2022" %}
-{% include pos.html what="Specialist Engineer" where="Hewlett Packard Enterprise (formerly Cray Inc.)" date="2019-2021" %}
+{% include pos.html what="Specialist Engineer" date="2019-2021" %}
 
-Works on the development of open-source parallel programming language Chapel.
-- Leads 5 (on average) developers in implementing Graphical Processing Unit
-  (GPU) support in the language. Triages bug reports, creates quarterly goals,
-  drives the subteam towards them, helps developers with their sprint planning
-  and technical challenges.
-- Serves as the ChapelCon (formerly CHIUW) General Chair. ChapelCon is the
-  Chapel event of the year, where tutorials, coding events, demos and talks
-  takes place across 3 days in a fully online environment. The target audience
-  is parallel programming enthusiasts, engineers and researchers. Average
-  attendance is 80-120 people.
+Individual contributor to two open-source projects: Chapel and Arkouda
+
+- Technical lead of the Arkouda efforts at HPE. Duties include: technical
+  leadership, prioritization, regular and ad-hoc communication to support
+  stakeholders.
+- Actively involved in community interactions: in charge of Chapel's LinkedIn
+  account, runs the project's quarterly newsletters, directly supports several
+  Chapel user groups, gives introductory and advanced Chapel talks, served as
+  CHIUW/ChapelCon general chair for several years.
+- Led ~5 developers in implementing vendor-neutral GPU support in Chapel, which
+  is considered to be in a mature state now. Duties included: setting up
+  deliverables for each quarterly release; laying the groundwork for the initial
+  implementation and continual technical contributions; helping team members
+  with their sprint planning towards achieving goals; triaging bug reports from
+  users; giving talks, tutorials, and demos on Chapel's GPU support
 - As a member of the performance team, implements compiler optimizations to
   deliver better performance with minimal/no user effort.
-- Participates in language/library design efforts.
+- Serves as a member of the Chapel Technical Steering Committee
 
 {% include pos.html what="Adjunct Lecturer" where="The George Washington University" date="2018" %}
 
@@ -56,11 +61,11 @@ Worked on the development of open-source parallel programming language Chapel.
 ## Committee Memberships
 
 <table style="margin-bottom:15px;">
-{% include committee.html what="International Conference on Supercomputing (ICS)" date="2026" %}
+{% include committee.html what="ISC High Performance" date="2026" %}
 {% include committee.html what="Programming Language Design and Implementation (PLDI)" date="2026" %}
+{% include committee.html what="International Conference on Supercomputing (ICS)" date="2026" %}
 {% include committee.html what="Workshop on Asynchronous Many-Task Systems and Applications (WAMTA)" date="2026" %}
 {% include committee.html what="Redefining Scalability for Diversely Heterogeneous Architectures (RSDHA)" date="2023, 2026" %}
-{% include committee.html what="ISC High Performance" date="2026" %}
 {% include committee.html what="HPE Tech Con - Reviewer" date="2025, 2026" %}
 {% include committee.html what="IEEE/ACM Supercomputing (SC)" date="2024, 2025" %}
 {% include committee.html what="Chapel Implementers and Users Workshop (CHIUW) - Chair" date="2021-2023" %}
